@@ -5,7 +5,7 @@ import Container from '../Layout/Container'
 
 const Navber = () => {
   return (
-    <div className='pt-[32px'>
+    <div className='pt-[32px] absolute top-0 left-0 w-full'>
       <Container>
         <div className='flex justify-between items-center'>
           <div>

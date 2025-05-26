@@ -1,11 +1,15 @@
-import React from 'react'
-import Container from '../Layout/Container'
-import laptop from "../../assets/laptop img.png"
+import React from 'react';
+import Container from '../Layout/Container';
+import laptop from "../../assets/laptop img.png";
+import Headerimg from "../../assets/Headerimg1.png"
 
 const Banner = () => {
   return (
- <section className='relative'>
-     <div className='pt-[195px] pb-[558px]  text-white'>
+ <section className='bg-cover bg-no-repeat bg-center pt-[195px] pb-[558px]  text-white'
+     style={{
+      backgroundImage: `url(${Headerimg})`,
+     }}>
+     <div>
       <Container>
         <div className='text-center'>
           <h1 className=' w-[560px] font-Secoundariy text-[56px] m-auto leading-[64px]'>Get your work done with  Management Tool </h1>
@@ -15,11 +19,26 @@ const Banner = () => {
             <a className='absolute top-[1px] right-[490px] bottom-[1px] font-Secoundariy text-lg font-medium py-[15px] px-7 bg-secoundry rounded-[6px] text-black'>Try for free</a>
           </div>
         </div>
+
+ <div className='absolute mt-[98px] '>
+      <img src= {laptop} alt="#laptop" className='w-full' />
+    </div>
+
+
       </Container>
+     
     </div>
-    <div className='absolute bottom-[-261px] left-[15%] w-full'>
-      <img src= {laptop} alt="#laptop" />
-    </div>
+
+
+
+
+
+
+
+
+
+
+    
  </section>
   )
 }
