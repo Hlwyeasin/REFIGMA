@@ -11,12 +11,12 @@ const Pricing = () => {
  <Container>
 
 <div className='text-center'>
-     <h2 className=' w-[648px] font-primary font-bold text-[46px] text-[#2C2643] m-auto '> Pricing Designed To Fit Your Business </h2>
+     <h2 className=' md:w-[648px] font-primary font-bold text-[46px] text-[#2C2643] m-auto '> Pricing Designed To Fit Your Business </h2>
     <p className='font-primary font-bold text-[24px] text-primary mt-[39px]'>Monthly</p>
   </div>
 
- <div className='mt-[77px]'>
- <div className='flex justify-between'>
+ <div className='md:mt-[77px]'>
+ <div className='md:flex justify-between'>
 
 {/*////////////////////////////////////// car01 Start//////////////////////////////// */}
 
