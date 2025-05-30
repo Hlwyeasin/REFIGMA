@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import logo from '../../assets/logo (3).png'
 import Container from '../Layout/Container';
 import { FaListCheck } from "react-icons/fa6";
@@ -7,13 +7,33 @@ import { ImCross } from "react-icons/im";
 
 
 const Navber = () => {
-  const [show, setShow] =useState(false)
+  const [show, setShow] =useState(false);
+  const [navScroll, setNavScroll] = useState(false)
   const handleClick = ()=>{
-    setShow(true)
+    setShow(true);  
+  };
+
+// useEffect(()=>{
+
+//    function scrollFuction(){
+//     console.log("ok yeasin");
+//     if(window.scrollY > 200){
+//       setNavScroll(true)
+      
+//     }else{
+//       setNavScroll(false)
+      
+//     }
     
-  }
+//    }
+//   window.addEventListener('scroll',scrollFuction)
+
+// },[])
+
+
+
   return (
-    <div className='pt-[32px] absolute top-0 left-0 w-full'>
+    <div className={`pt-[32px] fixed bg-primary pb-[32px] z-[9999]   top-0 left-0 w-full`}>
       <Container>
         <div className='md:flex justify-between items-center'>
           <div className='flex  items-center justify-between '>
