@@ -15,6 +15,7 @@ const Pricing = () => {
     <p className='font-primary font-bold text-[24px] text-primary mt-[39px]'>Monthly</p>
   </div>
 
+
  <div className='md:mt-[77px]'>
  <div className='md:flex justify-between'>
 
@@ -23,7 +24,7 @@ const Pricing = () => {
 <div className='group hover:bg-primary hover:border-primary pricing-box w-[450px] py-[40px] border border-[#DCE7FE] 
      rounded-[20px] shadow-[1px_4px_4px_ opx_ rgba(0,0,0,0.25)]'> 
 
-     <div className=' flex justify-center items-center w-[90px] h-[90px] rounded-full bg-[#E8F2FA] group hover:bg-white m-auto'>
+     <div className=' flex justify-center items-center w-[90px] h-[90px] rounded-full bg-[#E8F2FA] group-hover:bg-white m-auto'>
 
 
   <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -44,9 +45,9 @@ const Pricing = () => {
 
 
  <div className='text-center'>
- <p className='font-primary font-bold text-[24px] text-primary group hover:text-secoundry mt-[39px]'>Personal</p>
- <h2 className='font-primary font-bold text-[44px] text-pColor  group hover:text-white leading-[56px] mt-[2px] mb-[14px]'>$10/mth</h2>
- <p className='font-Secoundariy font-medium text-lg  text-[#645E76]'>Annual pricing  <span className='text-primary'>(save 20%)</span></p>
+ <p className='font-primary font-bold text-[24px] text-primary group-hover:text-secoundry mt-[39px]'>Personal</p>
+ <h2 className='font-primary font-bold text-[44px] text-pColor  group-hover:text-white leading-[56px] mt-[2px] mb-[14px]'>$10/mth</h2>
+ <p className='font-Secoundariy font-medium text-lg  text-[#645E76] group-hover:text-white'>Annual pricing  <span className='text-primary group-hover:text-secoundry'>(save 20%)</span></p>
  </div>
 
      <div className=' my-10 px-15'>
@@ -57,22 +58,14 @@ const Pricing = () => {
                                             <IoMdCheckmark className='text-sm font-bold text-primary' />
                                         </div>
 
-                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px]'>Calendar View</p>
+                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] group-hover:text-white ml-[22px]'>Calendar View</p>
                                     </div>
 
                                     <div className='flex items-center mb-[26px]'>
                                         <div className='w-6 h-6 bg-[#F4EBFF] rounded-full flex justify-center items-center'>
                                             <IoMdCheckmark className='text-sm font-bold text-primary' />
                                         </div>
-                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px]'> Custom Templates</p>
-                                    </div>
-
-                                    <div className='flex items-center mb-[26px]'>
-                                        <div className='w-6 h-6 bg-[#F4EBFF] rounded-full flex justify-center items-center'>
-                                            <IoMdCheckmark className='text-sm font-bold text-primary' />
-                                        </div>
-
-                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px]'>list view</p>
+                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] group-hover:text-white ml-[22px]'> Custom Templates</p>
                                     </div>
 
                                     <div className='flex items-center mb-[26px]'>
@@ -80,7 +73,7 @@ const Pricing = () => {
                                             <IoMdCheckmark className='text-sm font-bold text-primary' />
                                         </div>
 
-                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px]'>board view</p>
+                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] group-hover:text-white ml-[22px]'>list view</p>
                                     </div>
 
                                     <div className='flex items-center mb-[26px]'>
@@ -88,14 +81,22 @@ const Pricing = () => {
                                             <IoMdCheckmark className='text-sm font-bold text-primary' />
                                         </div>
 
-                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px]'>Assignees & Due Dates</p>
+                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] group-hover:text-white ml-[22px]'>board view</p>
+                                    </div>
+
+                                    <div className='flex items-center mb-[26px]'>
+                                        <div className='w-6 h-6 bg-[#F4EBFF] rounded-full flex justify-center items-center'>
+                                            <IoMdCheckmark className='text-sm font-bold text-primary' />
+                                        </div>
+
+                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] group-hover:text-white ml-[22px]'>Assignees & Due Dates</p>
                                     </div>
                                    </div>
 
 
 
      <div>
-  <button className='text-white font-Secoundariy text-lg font-medium py-5 px-[105px] bg-primary rounded-[6px] mt-5'>Purchase Now</button>
+  <button className='text-white font-Secoundariy text-lg font-medium py-5 px-[105px] bg-primary rounded-[6px] mt-5 group-hover:bg-secoundry group-hover:text-black'>Purchase Now</button>
      </div>
 
 
@@ -157,43 +158,43 @@ const Pricing = () => {
         </div>
 
  <div className='text-center'>
-     <p className='font-primary font-bold text-[24px] text-primary group hover:text-secoundry mt-[39px]'>Team</p>
-     <h2 className='font-primary font-bold text-[44px] text-pColor  group hover:text-white leading-[56px] mt-[2px] mb-[14px]'>$10/mth</h2>
-    <p className='font-Secoundariy font-medium text-lg text-[#645E76]'>Annual pricing  <span className='text-primary'>(save 20%)</span></p>
+     <p className='font-primary font-bold text-[24px] text-primary group-hover:text-secoundry mt-[39px]'>Team</p>
+     <h2 className='font-primary font-bold text-[44px] text-pColor  group-hover:text-white leading-[56px] mt-[2px] mb-[14px]'>$10/mth</h2>
+    <p className='font-Secoundariy font-medium text-lg text-[#645E76] group-hover:text-white'>Annual pricing  <span className='text-primary group-hover:text-secoundry'>(save 20%)</span></p>
      </div>
  <div className=' my-10 px-15'>
                                     <div className='flex items-center mb-[26px]'>
                                         <div className='w-6 h-6 bg-[#F4EBFF] rounded-full flex justify-center items-center'>
                                             <IoMdCheckmark className='text-sm font-bold text-primary' />
                                         </div>
-                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px]'>Timeline Review</p>
+                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px] group-hover:text-white'>Timeline Review</p>
                                     </div>
                                     <div className='flex items-center mb-[26px]'>
                                         <div className='w-6 h-6 bg-[#F4EBFF] rounded-full flex justify-center items-center'>
                                             <IoMdCheckmark className='text-sm font-bold text-primary' />
                                         </div>
-                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px]'>Custom fields</p>
+                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px] group-hover:text-white'>Custom fields</p>
                                     </div>
                                     <div className='flex items-center mb-[26px]'>
                                         <div className='w-6 h-6 bg-[#F4EBFF] rounded-full flex justify-center items-center'>
                                             <IoMdCheckmark className='text-sm font-bold text-primary' />
                                         </div>
-                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px]'>Custom Templates</p>
+                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px] group-hover:text-white'>Custom Templates</p>
                                     </div>
                                     <div className='flex items-center mb-[26px]'>
                                         <div className='w-6 h-6 bg-[#F4EBFF] rounded-full flex justify-center items-center'>
                                             <IoMdCheckmark className='text-sm font-bold text-primary' />
                                         </div>
-                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px]'>Task dependencies</p>
+                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px] group-hover:text-white'>Task dependencies</p>
                                     </div>
                                     <div className='flex items-center mb-[26px]'>
                                         <div className='w-6 h-6 bg-[#F4EBFF] rounded-full flex justify-center items-center'>
                                             <IoMdCheckmark className='text-sm font-bold text-primary' />
                                         </div>
-                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px]'>Milestones Manage</p>
+                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px] group-hover:text-white'>Milestones Manage</p>
                                     </div>
                                     <div>
-                                        <button className='text-white font-Secoundariy text-lg font-medium py-5 px-[105px] bg-primary rounded-[6px] mt-5'>Purchase Now</button>
+                                        <button className='text-white font-Secoundariy text-lg font-medium py-5 px-[105px] bg-primary rounded-[6px] mt-5 group-hover:bg-secoundry group-hover:text-black'>Purchase Now</button>
                                     </div>
 
 
@@ -241,45 +242,45 @@ const Pricing = () => {
 
 
                                 <div className='text-center'>
-                                    <p className='font-primary font-bold text-[24px] text-primary group hover:text-secoundry mt-[39px]'>Enterprise</p>
-                                    <h2 className='font-primary font-bold text-[44px] text-pColor  group hover:text-white
+                                    <p className='font-primary font-bold text-[24px] text-primary group-hover:text-secoundry mt-[39px]'>Enterprise</p>
+                                    <h2 className='font-primary font-bold text-[44px] text-pColor  group-hover:text-white
                             leading-[56px] mt-[2px] mb-[14px]'>$10/mth</h2>
-                                    <p className='font-Secoundariy font-medium text-lg text-[#645E76]'>Annual pricing  <span className='text-primary'>(save 20%)</span></p>
+                                    <p className='font-Secoundariy font-medium text-lg text-[#645E76] group-hover:text-white'>Annual pricing  <span className='text-primary group-hover:text-secoundry'>(save 20%)</span></p>
                                 </div>
                                 <div className=' my-10 px-15'>
                                     <div className='flex items-center mb-[26px]'>
                                         <div className='w-6 h-6 bg-[#F4EBFF] rounded-full flex justify-center items-center'>
                                             <IoMdCheckmark className='text-sm font-bold text-primary' />
                                         </div>
-                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px]'>Data export & deletion</p>
+                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px] group-hover:text-white'>Data export & deletion</p>
                                     </div>
                                     <div className='flex items-center mb-[26px]'>
                                         <div className='w-6 h-6 bg-[#F4EBFF] rounded-full flex justify-center items-center'>
                                             <IoMdCheckmark className='text-sm font-bold text-primary' />
                                         </div>
-                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px]'>Block native integrations</p>
+                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px] group-hover:text-white'>Block native integrations</p>
                                     </div>
                                     <div className='flex items-center mb-[26px]'>
                                         <div className='w-6 h-6 bg-[#F4EBFF] rounded-full flex justify-center items-center'>
                                             <IoMdCheckmark className='text-sm font-bold text-primary' />
                                         </div>
-                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px]'>Custom branding</p>
+                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px] group-hover:text-white'>Custom branding</p>
                                     </div>
                                     <div className='flex items-center mb-[26px]'>
                                         <div className='w-6 h-6 bg-[#F4EBFF] rounded-full flex justify-center items-center'>
                                             <IoMdCheckmark className='text-sm font-bold text-primary' />
                                         </div>
-                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px]'>Lock custom fields</p>
+                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px] group-hover:text-white'>Lock custom fields</p>
                                     </div>
                                     <div className='flex items-center mb-[26px]'>
                                         <div className='w-6 h-6 bg-[#F4EBFF] rounded-full flex justify-center items-center'>
                                             <IoMdCheckmark className='text-sm font-bold text-primary' />
                                         </div>
-                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px]'>Priority support</p>
+                                        <p className='font-Secoundariy font-medium text-lg text-[#645E76] ml-[22px] group-hover:text-white'>Priority support</p>
                                     </div>
                                     <div>
 
-                                        <button className='text-white font-Secoundariy text-lg font-medium py-5 px-[105px] bg-primary rounded-[6px] mt-5'>Purchase Now</button>
+                                        <button className='text-white font-Secoundariy text-lg font-medium py-5 px-[105px] bg-primary rounded-[6px] mt-5 group-hover:bg-secoundry group-hover:text-black'>Purchase Now</button>
                                     </div>
 
 
