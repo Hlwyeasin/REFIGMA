@@ -12,7 +12,7 @@ const Footer = () => {
     <section>
       <Container>
 
-        <div className='  bg-[#f7f7fc75] h-[228px] mb-[30px] ml-[255px]'>
+        <div className='  bg-[#fcf7fb75] h-[228px] mb-[30px] md:ml-[255px]'>
 
          <div className='flex justify-between'>
            <div>
@@ -23,7 +23,7 @@ const Footer = () => {
             <div>
               <p className='text-[#645E76] w-[212px] font-Secoundariy text-[16px] leading-[28px] mt-[26px]'>Build a modern and creative website with Innovate.</p>
             </div>
-            <div className='flex gap-[6px] mt-[24px]'>
+            <div className='md:flex gap-[6px] mt-[24px]'>
 
               <img src={google} alt="google" />
               <img src={twiter} alt="twiter" />
@@ -34,7 +34,8 @@ const Footer = () => {
 
           </div>
 
-          <div>
+         <div className='md:flex'>
+           <div>
             <h2 className='mb-5 font-Secoundariy font-medium text-lg text-[#2C2643]'>Product</h2>
              <ul>
               <li>Landingpages</li>
@@ -71,7 +72,7 @@ const Footer = () => {
 
            <div>
             <h5 className='font-Secoundariy font-medium text-lg leading-8 text-[#2C2643] mb-5'>Get Latest Updates</h5>
-            <p className='w-[205px] font-Secoundariy text-[16px] leading-[26px] '>Subscribe to our newsletter and get many interesting things every week</p>
+            <p className='md:w-[205px] font-Secoundariy text-[16px] leading-[26px] '>Subscribe to our newsletter and get many interesting things every week</p>
 
             <div className='mt-8 relative'>
               <input className='w-full placeholder:font-secondary placeholder:leading-[1505 placeholder:text-[#A1A2A3] rounded-[5px]  border border-[#D2D2D2] outline-0 py-[14px] px-[18px] ' placeholder='Your Email Address' type="text" name="" id="" />
@@ -82,10 +83,12 @@ const Footer = () => {
             </div>
              
            </div>
+          
+         </div>
 
          </div>
 
-          <div className='mt-[86px] w-full rounded-full h-[1px] shadow-md bg-[#D2D2D2] mb-6 '></div>
+         <div className='mt-[86px] w-full rounded-full h-[1px] shadow-md bg-[#D2D2D2] mb-6 '></div>
         <a className='text-subtext font-secondary text-[14px] leading-5  ' href="#">© 2024 Innovate - All Right Reserved</a>
            
 
