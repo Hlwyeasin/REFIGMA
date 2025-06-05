@@ -16,7 +16,7 @@ const AboutSlider = () => {
   return (
     <div
       
-      className='w-[58px] h-[58px] rounded-full bg-blue-100  absolute top-[60%] left-[-20px]'
+      className='w-[58px] h-[58px] rounded-full bg-blue-500  absolute top-[60%] left-[-20px]'
       onClick={onClick}
     />
   );
@@ -34,6 +34,7 @@ function SamplePrevArrow(props) {
     />
   );
 }
+
   var settings = {
     dots: false,
     infinite: true,
@@ -51,13 +52,13 @@ function SamplePrevArrow(props) {
 
 
   return (
-    <div className='W-full max-w-[600px]'>
+    <div className='W-full max-w-[650px] '>
       <Slider {...settings}>
 
         <div className='relative mt-[137px]'>
 
-   <div className='absolute top-[-80px] left-[48px] w-[124px] h-[124px] rounded-full bg-[#C4C4C4] border-[10px] border-[#F7F7FC]'>
-          </div>
+        <div className='absolute top-[-80px] left-[48px] w-[124px] h-[124px] rounded-full bg-[#C4C4C4] border-[10px] border-[#F7F7FC]'>
+         </div>
 
 
 
@@ -71,6 +72,7 @@ function SamplePrevArrow(props) {
                 <h2 className='w-128px text-[24px] leading-[36px] text-[#30344E] font-primary font-bold'>Robert Fox</h2>
                 <p className='w-[120px] text-[16px] leading-[26px] font-Secoundariy  text-[#30344E]'>Digital Marketer</p>
               </div>
+
               <div>
                 <img src={starimge} alt="starimge" />
               </div>
@@ -80,6 +82,7 @@ function SamplePrevArrow(props) {
           </div>
 
         </div>
+
         <div className='relative mt-[137px]'>
 
           <div className='absolute top-[-80px] left-[48px] w-[124px] h-[124px] rounded-full bg-[#C4C4C4] border-[10px] border-[#F7F7FC]'>
@@ -106,6 +109,9 @@ function SamplePrevArrow(props) {
           </div>
 
         </div>
+
+
+
         <div className='relative mt-[137px]'>
 
           <div className='absolute top-[-80px] left-[48px] w-[124px] h-[124px] rounded-full bg-[#C4C4C4] border-[10px] border-[#F7F7FC]'>

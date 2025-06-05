@@ -7,7 +7,7 @@ const Customer = () => {
     <section>
       <Container>
         <div>
-       <section className=' m-[140px] text-center '>
+       <section className=' mt-[40px] md:mt-[30px] md:m-[140px] text-center '>
        
         
             <img src= {image} alt="image" />

@@ -9,6 +9,8 @@ const About = () => {
     <section className='py-[200px] bg-[#F4FAFA]'>
       <Container>
         <div className=' md:flex'>
+
+          
           <div>
             <div>
               <h2 className='w-[390px] md:w-[594px] font-primary font-bold text-[46px] text-pColor'> What they are talking about us?</h2>

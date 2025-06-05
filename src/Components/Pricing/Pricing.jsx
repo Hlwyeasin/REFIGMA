@@ -16,12 +16,12 @@ const Pricing = () => {
   </div>
 
 
- <div className='md:mt-[77px]'>
- <div className='md:flex justify-between'>
+ <div className=' md:mt-[77px]'>
+ <div className=' md:flex justify-between'>
 
 {/*////////////////////////////////////// car01 Start//////////////////////////////// */}
 
-<div className='group hover:bg-primary hover:border-primary pricing-box w-[450px] py-[40px] border border-[#DCE7FE] 
+<div className='group hover:bg-primary hover:border-primary pricing-box md:w-[450px] py-[40px] border border-[#DCE7FE] 
      rounded-[20px] shadow-[1px_4px_4px_ opx_ rgba(0,0,0,0.25)]'> 
 
      <div className=' flex justify-center items-center w-[90px] h-[90px] rounded-full bg-[#E8F2FA] group-hover:bg-white m-auto'>
@@ -116,7 +116,7 @@ const Pricing = () => {
 
 
      {/*////////////////////////////////////// car02 Start//////////////////////////////// */}                       
-     <div className='group hover:bg-primary hover:border-primary pricing-box w-[450px] py-[40px] border border-[#DCE7FE] rounded-[20px]
+     <div className='group hover:bg-primary hover:border-primary pricing-box md:w-[450px] py-[40px] border border-[#DCE7FE] rounded-[20px]
   shadow-[1px_4px_4px_ opx_ rgba(0,0,0,0.25)]'>
 
 
@@ -210,7 +210,7 @@ const Pricing = () => {
  
  {/*////////////////////////////////////// car03 Start//////////////////////////////// */}
 
-  <div className='group hover:bg-primary hover:border-primary pricing-box w-[450px] py-[40px] border border-[#DCE7FE] rounded-[20px]
+  <div className='group hover:bg-primary hover:border-primary pricing-box md:w-[450px] py-[40px] border border-[#DCE7FE] rounded-[20px]
   shadow-[1px_4px_4px_ opx_ rgba(0,0,0,0.25)]'>
 
      <div className=' flex justify-center items-center w-[90px] h-[90px] rounded-full bg-[#E8F2FA] group hover:bg-white m-auto'>
